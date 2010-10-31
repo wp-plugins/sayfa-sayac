@@ -1,0 +1,433 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sayfa Sayaç\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-10-26 08:18+0200\n"
+"Last-Translator: Hakan Demiray <hakan@dmry.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sayfa_sayac.php
+msgid "This post <strong>%</strong> times viewed."
+msgstr "Bu yazı <strong>%</strong> kez görüntülenmiş."
+
+#: sayfa_sayac.php
+msgid "Not count for this post and stop counter"
+msgstr "Bu yazı için okunma istatistiği tutma ve sayacı durdur"
+
+#: sayfa_sayac.php
+msgid "Are you sure?"
+msgstr "Emin misiniz?"
+
+#: sayfa_sayac.php
+msgid "Reset count number to this post"
+msgstr "Bu yazının sayacını sıfırla"
+
+#: sayfa_sayac.php
+msgid "Error 101: Request timeout: % sn"
+msgstr "Hata 101: İstek zaman aşımına uğradı: % sn"
+
+#: sayfa_sayac.php
+msgid "Error 102: Post ID number is not numeric"
+msgstr "Hata 102: Post ID rakamı sayısal olmalıdır"
+
+#: sayfa_sayac.php
+msgid "Error 103: HTTP USER AGENT is empty"
+msgstr "Hata 103: HTTP USER AGENT boş"
+
+#: sayfa_sayac.php
+msgid "Error 104: You already read this post"
+msgstr "Hata 104: Bu yazıyı zaten okumuşsunuz"
+
+#: sayfa_sayac.php
+msgid "Error 105: This post is not counting"
+msgstr "Hata 105: Bu yazının sayacı tutulmuyor"
+
+#: sayfa_sayac.php
+msgid "Error 106: You are a bot"
+msgstr "Hata 106: Botlar sayılmaz"
+
+#: sayfa_sayac.php
+msgid "Error 107: Your role is not counting"
+msgstr "Hata 107: Kullanıcı seviyen sayaca dahil edilmez"
+
+#: sayfa_sayac.php
+msgid "Error 108: Statistic type is not be empty"
+msgstr "Hata 108: İstatistik türü boş olamaz"
+
+#: sayfa_sayac.php
+msgid "Error 109: Result limit number must be numeric"
+msgstr "Hata 109: Sonuç adet rakamı sayısal değer olmalıdır"
+
+#: sayfa_sayac.php
+msgid "Error 110: You have not permission for access here."
+msgstr "Hata 110: Buraya erişebilme yetkiniz bulunmuyor."
+
+#: sayfa_sayac.php
+msgid "Error 111: Post ID is not be null"
+msgstr "Hata 111: Post ID boş olamaz"
+
+#: sayfa_sayac.php
+msgid "Cache cleaned. <a href=\"%\">Click here</a> to return admin page."
+msgstr "Önbellek temizlendi. Yönetici sayfasına dönmek için <a href=\"%\">tıklayın</a>."
+
+#: sayfa_sayac.php
+msgid "Counter reseted. <a href=\"%\">Click here</a> to return admin page."
+msgstr "Sayaç sıfırlandı. Yönetici sayfasına dönmek için <a href=\"%\">tıklayın</a>."
+
+#: sayfa_sayac.php
+msgid "Post view counter reseted. Now you can close this window."
+msgstr "Yazıya ait sayaç sıfırlandı. Şimdi bu pencereyi kapatabilirsiniz"
+
+#: sayfa_sayac.php
+msgid "Sayfa sayaç uninstalled. <a href=\"%\">Click here</a> deactive sayfa sayaç."
+msgstr "Sayfa sayaç kaldırıldı. Sayfa sayacı pasifleştirmek için <a href=\"%\">tıklayın</a>"
+
+#: sayfa_sayac.php
+msgid "Import action is completed. <a href=\"%\">Click here</a> to return admin page."
+msgstr "İçeri aktarma işlemi tamamlandı. Yönetici sayfasına dönmek için <a href=\"%\">tıklayın</a>."
+
+#: sayfa_sayac.php
+msgid "Fix action is completed. <a href=\"%\">Click here</a> to return admin page."
+msgstr "Hata denetleme işlemi tamamlandı. Yönetici sayfasına dönmek için <a href=\"%\">tıklayın</a>."
+
+#: sayfa_sayac.php
+msgid "Do you like plugin? So you will donate for plugin"
+msgstr "Eklentiyi beğendiniz mi? Öyleyse eklentinin geliştirilmesi için bağışta bulunabilirsiniz. Bağış yapmak için alttaki bağlantıyı takip edebilirsiniz"
+
+#: sayfa_sayac.php
+msgid "Donate"
+msgstr "Bağış Yap"
+
+#: sayfa_sayac.php
+msgid "Cache Type:"
+msgstr "Önbellek Türü:"
+
+#: sayfa_sayac.php
+msgid "Not use caching"
+msgstr "Önbellek Kullanma"
+
+#: sayfa_sayac.php
+msgid "Memcached"
+msgstr "Memcached"
+
+#: sayfa_sayac.php
+msgid "xCache"
+msgstr "xCache"
+
+#: sayfa_sayac.php
+msgid "Alternative PHP Cache (APC)"
+msgstr "Alternative PHP Cache (APC)"
+
+#: sayfa_sayac.php
+msgid "eAccelerator"
+msgstr "eAccelerator"
+
+#: sayfa_sayac.php
+msgid " - Not Installed"
+msgstr " - Yüklü Değil"
+
+#: sayfa_sayac.php
+msgid "DB table can not created. So plugin can not be activated. Check your db user permissions for creating table. Please <a href=\"plugins.php\">click here</a> to return manage plugins"
+msgstr "Veritabanı tablosu oluşturulamadı. Bu yüzden eklenti aktifleştirilemiyor. Tablo oluşturulabilmesi için, veritabanı kullanıcısının izinlerini kontrol ediniz. Lütfen <a href=\"plugins.php\">buraya</a> tıklayarak eklenti yönetimine dönünüz."
+
+#: sayfa_sayac.php
+msgid "Reading"
+msgstr "Okunma"
+
+#: sayfa_sayac.php
+msgid "Sayfa Sayaç Configuration"
+msgstr "Sayfa Sayaç Ayarları"
+
+#: sayfa_sayac.php
+msgid "General Options"
+msgstr "Genel Ayarlar"
+
+#: sayfa_sayac.php
+msgid "Date Format:"
+msgstr "Tarih Formatı:"
+
+#: sayfa_sayac.php
+msgid "Documentation on date formatting"
+msgstr "Tarih formatı hakkında bir belge"
+
+#: sayfa_sayac.php
+msgid "Display counter (automatically)"
+msgstr "Sayacı göster (otomatik olarak)"
+
+#: sayfa_sayac.php
+msgid "Yes"
+msgstr "Evet"
+
+#: sayfa_sayac.php
+msgid "No"
+msgstr "Hayır"
+
+#: sayfa_sayac.php
+msgid "&#8211; Display counter information bottom or top postion the post. In this mode, you must not add counter function in the template file."
+msgstr "&#8211; Sayaç bilgilerini, yazının altında ya da üstünde görüntüler. Bu mod ile, tema dosyanıza sayaç fonksiyonlarını eklemeniz gerekmez."
+
+#: sayfa_sayac.php
+msgid "Role"
+msgstr "Erişim"
+
+#: sayfa_sayac.php
+msgid "Select user capability who can display configuration page"
+msgstr "Ayarlara erişebilecek kullanıcı seviyesini seçin."
+
+#: sayfa_sayac.php
+msgid "Count Views From"
+msgstr "Sayacı Görebilecekler"
+
+#: sayfa_sayac.php
+msgid "Everyone"
+msgstr "Herkes"
+
+#: sayfa_sayac.php
+msgid "Guests"
+msgstr "Ziyaretçiler"
+
+#: sayfa_sayac.php
+msgid "All Registered Users"
+msgstr "Tüm Kayıtlı Üyeler"
+
+#: sayfa_sayac.php
+msgid "Exclude Views From"
+msgstr "Şunların Görüntülemesini Sayma"
+
+#: sayfa_sayac.php
+msgid "Bots"
+msgstr "Bot & Örümcekler"
+
+#: sayfa_sayac.php
+msgid "Counter Information"
+msgstr "Sayaç Bilgisi"
+
+#: sayfa_sayac.php
+msgid "Display for"
+msgstr "Görüntülenme yeri"
+
+#: sayfa_sayac.php
+msgid "Only single post template (single.php)"
+msgstr "Sadece yazı şablonunda (single.php)"
+
+#: sayfa_sayac.php
+msgid "Only listing templates (index, archives etc.)"
+msgstr "Sadece listeleme şablonlarında (index.php, archives.php v.b./)"
+
+#: sayfa_sayac.php
+msgid "Both"
+msgstr "Her ikisinde de"
+
+#: sayfa_sayac.php
+msgid "Total view number of the post"
+msgstr "Yazının toplam okunma sayısı"
+
+#: sayfa_sayac.php
+msgid "Daily view number of the post"
+msgstr "Yazının bugün için okunma sayısı"
+
+#: sayfa_sayac.php
+msgid "Last reading date of the post"
+msgstr "Yazının son okunma tarihi"
+
+#: sayfa_sayac.php
+msgid "Position for single template"
+msgstr "Yazı şablonunda konumu"
+
+#: sayfa_sayac.php
+msgid "Top"
+msgstr "Yukarıda"
+
+#: sayfa_sayac.php
+msgid "Bottom"
+msgstr "Aşağıda"
+
+#: sayfa_sayac.php
+msgid "Position for listing templates"
+msgstr "Listeleme şablonlarında konumu"
+
+#: sayfa_sayac.php
+msgid "Template"
+msgstr "Şablon"
+
+#: sayfa_sayac.php
+msgid "Templates For Listing"
+msgstr "Listeleme Şablonu"
+
+#: sayfa_sayac.php
+msgid "Link to the post"
+msgstr "Yazının adresi (URL)"
+
+#: sayfa_sayac.php
+msgid "Title of the post"
+msgstr "Yazının başlığı"
+
+#: sayfa_sayac.php
+msgid "Save Options &raquo;"
+msgstr "Ayarları Kaydet &raquo;"
+
+#: sayfa_sayac.php
+msgid "Reset Caches"
+msgstr "Önbelleği Temizle"
+
+#: sayfa_sayac.php
+msgid "Do you want to reset caches? Ok?, click below :)"
+msgstr "Önbelleği temizlemek istiyor musunuz? Tamam?, alta tıkla :)"
+
+#: sayfa_sayac.php
+msgid "Reset Counter"
+msgstr "Sayacı Sıfırla"
+
+#: sayfa_sayac.php
+msgid "Do you want to reset counter? All of post view numbers will be reset? Ok?, click below :)"
+msgstr "Sayacı sıfırlamak istiyor musunuz? Tüm yazıların görüntülenme verileri silenecek? Tamam?, alta tıkla :)"
+
+#: sayfa_sayac.php
+msgid "Are you sure? All counter data will erased?"
+msgstr "Emin misin? Tüm sayaç verisi silinecek?"
+
+#: sayfa_sayac.php
+msgid "Uninstall Sayfa Sayaç"
+msgstr "Sayfa Sayacı Kaldır"
+
+#: sayfa_sayac.php
+msgid "Do you want to uninstall sayfa sayaç? All of counter data will erased and database table will droped? Ok?, click below :)"
+msgstr "Sayfa Sayacı kaldırmak istiyor musunuz? Tüm sayaç bilgileri silinecek ve veritabanı tablosu kaldırılacak? Tamam mı?, alta tıkla :)"
+
+#: sayfa_sayac.php
+msgid "Import From WP-PostViews"
+msgstr "WP-PostViews Eklentisinden Aktar"
+
+#: sayfa_sayac.php
+msgid "If you want to import WP-PostViews data to Sayfa Sayaç, click below button."
+msgstr "WP-PostViews verilerini Sayfa Sayaca aktarmak istiyorsanız, alttaki düğmeye tıklayınız"
+
+#: sayfa_sayac.php
+msgid "Are you sure? All WP-PostViews data will erased after convert finished"
+msgstr "Emin misin? Dönüştürme işlemi bittiğinde tüm WP-PostViews verileri silinmiş olacak."
+
+#: sayfa_sayac.php
+msgid "Repair post-meta and counter table errors"
+msgstr "post-meta ve sayaç tablosu hatalarını onar"
+
+#: sayfa_sayac.php
+msgid "Sometimes, postmeta data and counter table not return the same counter results. So, you can fix this results"
+msgstr "Bazen postmeta verileri ile sayaç tablosu verileri aynı sonucu vermiyor. Böyle durumlarda, buraya tıklayın ve onarma işlemi yapın."
+
+#: sayfa_sayac.php
+msgid "Repair Table And Meta Data Errors"
+msgstr "Tablo ve Meta Veri Hatalarını Onar"
+
+#: sayfa_sayac.php
+msgid "No result"
+msgstr "Sonuç yok"
+
+#: sayfa_sayac.php
+msgid "Sayfa sayaç statistics widgets"
+msgstr "Sayfa sayaç istatistik bileşeni"
+
+#: sayfa_sayac.php
+msgid "Sayfa sayaç"
+msgstr "Sayfa sayaç"
+
+#: sayfa_sayac.php
+msgid "Least Viewed Posts"
+msgstr "En Az Görüntülenen Yazılar"
+
+#: sayfa_sayac.php
+msgid "Title"
+msgstr "Başlık"
+
+#: sayfa_sayac.php
+msgid "Widget Type:"
+msgstr "Bileşen Türü:"
+
+#: sayfa_sayac.php
+msgid "Least Viewed for Total"
+msgstr "Toplamda En Az Görüntülenenler"
+
+#: sayfa_sayac.php
+msgid "Most Viewed for Total"
+msgstr "Toplamda En Çok Görüntülenenler"
+
+#: sayfa_sayac.php
+msgid "Least Viewed for Today"
+msgstr "Bugün En Az Görüntülenenler"
+
+#: sayfa_sayac.php
+msgid "Most Viewed for Today"
+msgstr "Bugün En Çok Görüntülenenler"
+
+#: sayfa_sayac.php
+msgid "Last Viewed Posts"
+msgstr "En Son Görüntülenenler"
+
+#: sayfa_sayac.php
+msgid "Max. Record:"
+msgstr "Maks. Sonuç:"
+
+#: sayfa_sayac.php
+msgid "Maximum Post Title Length:"
+msgstr "Maks. Yazı Başlığı Uzunluğu:"
+
+#: sayfa_sayac.php
+msgid "Category ID:"
+msgstr "Kategori ID:"
+
+#: sayfa_sayac.php
+msgid "Enter category ID for list post viewed statistic by category. Else leave empty"
+msgstr "Yazı görüntülenmelerini kategoriye göre listelemek istiyorsanız, kategori ID giriniz. Aksi durumda boş bırakınız"
+
+#: sayfa_sayac.php
+msgid "Exclude Categories IDs:"
+msgstr "Çıkarılan Kategori ID'ler"
+
+#: sayfa_sayac.php
+msgid "If you want to exclude all of the posts under a category, you can enter category ID above box. More than one category, please separet them by comma"
+msgstr "Kategori altındaki tüm yazıları sonuç listesinden çıkarmak istiyorsanız, kategori ID giriniz. Birden fazla kategoriyi, virgül ile ayırınız"
+
+#: sayfa_sayac.php
+msgid "Exclude Posts IDs:"
+msgstr "Çıkarılan Yazı ID'ler"
+
+#: sayfa_sayac.php
+msgid "If you want to exclude some of the posts, you can enter post ID above box. More than one post, please separet them by comma"
+msgstr "Eğer bir veya daha fazla yazıyı listeden çıkarmak istiyorsanız, yazı ID giriniz. Birden fazla yazıyı, virgül ile ayırınız"
+
+#: sayfa_sayac.php
+msgid "%sayac_toplam% views"
+msgstr "%sayac_toplam% görüntülenme"
+
+#: sayfa_sayac.php
+msgid "Sayfa Sayaç Monitor"
+msgstr "Sayfa Sayaç Monitör"
+
+#: sayfa_sayac.php
+msgid "Statistic Type:"
+msgstr "İstatistik Türü:"
+
+#: sayfa_sayac.php
+msgid "Select"
+msgstr "Seçiniz"
+
+#: sayfa_sayac.php
+msgid "Please wait.."
+msgstr "Lütfen bekleyiniz.."
+
+#: sayfa_sayac.php
+msgid "Total Views"
+msgstr "Toplam Okunma"
+
+#: sayfa_sayac.php
+msgid "Today Views"
+msgstr "Bugün Okunma"
+
